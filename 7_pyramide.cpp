@@ -55,7 +55,6 @@ int PluGndNbr(int pop[], int l)
 
     while (n <= l)
     {
-
             if (valeurfin < pop[n])
             {
                 valeurfin = pop[n];
@@ -68,7 +67,6 @@ int PluGndNbr(int pop[], int l)
 
 float AgeMoyen(int pop[], int ann[], int l)
 {
-
     float moy = 0;
     float moyenne = 0;
     int n = 0;
@@ -86,8 +84,6 @@ float AgeMoyen(int pop[], int ann[], int l)
     }
 
     moyenne = massemoy / massetemp;
-    //cout << massemoy << endl;
-    //cout << massetemp << endl;
 
     return moyenne;
 }
